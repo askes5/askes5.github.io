@@ -31,4 +31,24 @@ $primary-invert: $pink-invert;
 $family-sans-serif:  'Rubik', sans-serif;
 $family-primary: $family-sans-serif;
 
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/functions";
+
+// Setup Custom Colors
+$facebook: #4267B2;
+$facebook-invert: findColorInvert($facebook);
+$instagram: #30618A;
+$instagram-invert: findColorInvert($instagram);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+// Add new color variables to the color map.
+@import "../node_modules/bulma/sass/utilities/derived-variables";
+$addColors: (
+        "facebook":($facebook, $facebook-invert),
+        "instagram": ($instagram, $instagram-invert),
+        "github": ($github, $github-invert)
+);
+$colors: map-merge($colors, $addColors);
+
 @import "../node_modules/bulma/bulma";

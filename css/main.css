@@ -779,6 +779,33 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .has-background-danger {
   background-color: #f14668 !important; }
 
+.has-text-facebook {
+  color: #4267B2 !important; }
+
+a.has-text-facebook:hover, a.has-text-facebook:focus {
+  color: #34518d !important; }
+
+.has-background-facebook {
+  background-color: #4267B2 !important; }
+
+.has-text-instagram {
+  color: #30618A !important; }
+
+a.has-text-instagram:hover, a.has-text-instagram:focus {
+  color: #234664 !important; }
+
+.has-background-instagram {
+  background-color: #30618A !important; }
+
+.has-text-github {
+  color: #333 !important; }
+
+a.has-text-github:hover, a.has-text-github:focus {
+  color: #1a1a1a !important; }
+
+.has-background-github {
+  background-color: #333 !important; }
+
 .has-text-black-bis {
   color: #121212 !important; }
 
@@ -1975,6 +2002,210 @@ a.box:active {
         background-color: #fcd4dc;
         border-color: transparent;
         color: #cc0f35; }
+  .button.is-facebook {
+    background-color: #4267B2;
+    border-color: transparent;
+    color: #fff; }
+    .button.is-facebook:hover, .button.is-facebook.is-hovered {
+      background-color: #3f62a9;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-facebook:focus, .button.is-facebook.is-focused {
+      border-color: transparent;
+      color: #fff; }
+      .button.is-facebook:focus:not(:active), .button.is-facebook.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(66, 103, 178, 0.25); }
+    .button.is-facebook:active, .button.is-facebook.is-active {
+      background-color: #3b5c9f;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-facebook[disabled],
+    fieldset[disabled] .button.is-facebook {
+      background-color: #4267B2;
+      border-color: transparent;
+      box-shadow: none; }
+    .button.is-facebook.is-inverted {
+      background-color: #fff;
+      color: #4267B2; }
+      .button.is-facebook.is-inverted:hover, .button.is-facebook.is-inverted.is-hovered {
+        background-color: #f2f2f2; }
+      .button.is-facebook.is-inverted[disabled],
+      fieldset[disabled] .button.is-facebook.is-inverted {
+        background-color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+        color: #4267B2; }
+    .button.is-facebook.is-loading::after {
+      border-color: transparent transparent #fff #fff !important; }
+    .button.is-facebook.is-outlined {
+      background-color: transparent;
+      border-color: #4267B2;
+      color: #4267B2; }
+      .button.is-facebook.is-outlined:hover, .button.is-facebook.is-outlined.is-hovered, .button.is-facebook.is-outlined:focus, .button.is-facebook.is-outlined.is-focused {
+        background-color: #4267B2;
+        border-color: #4267B2;
+        color: #fff; }
+      .button.is-facebook.is-outlined.is-loading::after {
+        border-color: transparent transparent #4267B2 #4267B2 !important; }
+      .button.is-facebook.is-outlined.is-loading:hover::after, .button.is-facebook.is-outlined.is-loading.is-hovered::after, .button.is-facebook.is-outlined.is-loading:focus::after, .button.is-facebook.is-outlined.is-loading.is-focused::after {
+        border-color: transparent transparent #fff #fff !important; }
+      .button.is-facebook.is-outlined[disabled],
+      fieldset[disabled] .button.is-facebook.is-outlined {
+        background-color: transparent;
+        border-color: #4267B2;
+        box-shadow: none;
+        color: #4267B2; }
+    .button.is-facebook.is-inverted.is-outlined {
+      background-color: transparent;
+      border-color: #fff;
+      color: #fff; }
+      .button.is-facebook.is-inverted.is-outlined:hover, .button.is-facebook.is-inverted.is-outlined.is-hovered, .button.is-facebook.is-inverted.is-outlined:focus, .button.is-facebook.is-inverted.is-outlined.is-focused {
+        background-color: #fff;
+        color: #4267B2; }
+      .button.is-facebook.is-inverted.is-outlined.is-loading:hover::after, .button.is-facebook.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-facebook.is-inverted.is-outlined.is-loading:focus::after, .button.is-facebook.is-inverted.is-outlined.is-loading.is-focused::after {
+        border-color: transparent transparent #4267B2 #4267B2 !important; }
+      .button.is-facebook.is-inverted.is-outlined[disabled],
+      fieldset[disabled] .button.is-facebook.is-inverted.is-outlined {
+        background-color: transparent;
+        border-color: #fff;
+        box-shadow: none;
+        color: #fff; }
+  .button.is-instagram {
+    background-color: #30618A;
+    border-color: transparent;
+    color: #fff; }
+    .button.is-instagram:hover, .button.is-instagram.is-hovered {
+      background-color: #2d5a81;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-instagram:focus, .button.is-instagram.is-focused {
+      border-color: transparent;
+      color: #fff; }
+      .button.is-instagram:focus:not(:active), .button.is-instagram.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(48, 97, 138, 0.25); }
+    .button.is-instagram:active, .button.is-instagram.is-active {
+      background-color: #295477;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-instagram[disabled],
+    fieldset[disabled] .button.is-instagram {
+      background-color: #30618A;
+      border-color: transparent;
+      box-shadow: none; }
+    .button.is-instagram.is-inverted {
+      background-color: #fff;
+      color: #30618A; }
+      .button.is-instagram.is-inverted:hover, .button.is-instagram.is-inverted.is-hovered {
+        background-color: #f2f2f2; }
+      .button.is-instagram.is-inverted[disabled],
+      fieldset[disabled] .button.is-instagram.is-inverted {
+        background-color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+        color: #30618A; }
+    .button.is-instagram.is-loading::after {
+      border-color: transparent transparent #fff #fff !important; }
+    .button.is-instagram.is-outlined {
+      background-color: transparent;
+      border-color: #30618A;
+      color: #30618A; }
+      .button.is-instagram.is-outlined:hover, .button.is-instagram.is-outlined.is-hovered, .button.is-instagram.is-outlined:focus, .button.is-instagram.is-outlined.is-focused {
+        background-color: #30618A;
+        border-color: #30618A;
+        color: #fff; }
+      .button.is-instagram.is-outlined.is-loading::after {
+        border-color: transparent transparent #30618A #30618A !important; }
+      .button.is-instagram.is-outlined.is-loading:hover::after, .button.is-instagram.is-outlined.is-loading.is-hovered::after, .button.is-instagram.is-outlined.is-loading:focus::after, .button.is-instagram.is-outlined.is-loading.is-focused::after {
+        border-color: transparent transparent #fff #fff !important; }
+      .button.is-instagram.is-outlined[disabled],
+      fieldset[disabled] .button.is-instagram.is-outlined {
+        background-color: transparent;
+        border-color: #30618A;
+        box-shadow: none;
+        color: #30618A; }
+    .button.is-instagram.is-inverted.is-outlined {
+      background-color: transparent;
+      border-color: #fff;
+      color: #fff; }
+      .button.is-instagram.is-inverted.is-outlined:hover, .button.is-instagram.is-inverted.is-outlined.is-hovered, .button.is-instagram.is-inverted.is-outlined:focus, .button.is-instagram.is-inverted.is-outlined.is-focused {
+        background-color: #fff;
+        color: #30618A; }
+      .button.is-instagram.is-inverted.is-outlined.is-loading:hover::after, .button.is-instagram.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-instagram.is-inverted.is-outlined.is-loading:focus::after, .button.is-instagram.is-inverted.is-outlined.is-loading.is-focused::after {
+        border-color: transparent transparent #30618A #30618A !important; }
+      .button.is-instagram.is-inverted.is-outlined[disabled],
+      fieldset[disabled] .button.is-instagram.is-inverted.is-outlined {
+        background-color: transparent;
+        border-color: #fff;
+        box-shadow: none;
+        color: #fff; }
+  .button.is-github {
+    background-color: #333;
+    border-color: transparent;
+    color: #fff; }
+    .button.is-github:hover, .button.is-github.is-hovered {
+      background-color: #2d2d2d;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-github:focus, .button.is-github.is-focused {
+      border-color: transparent;
+      color: #fff; }
+      .button.is-github:focus:not(:active), .button.is-github.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(51, 51, 51, 0.25); }
+    .button.is-github:active, .button.is-github.is-active {
+      background-color: #262626;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-github[disabled],
+    fieldset[disabled] .button.is-github {
+      background-color: #333;
+      border-color: transparent;
+      box-shadow: none; }
+    .button.is-github.is-inverted {
+      background-color: #fff;
+      color: #333; }
+      .button.is-github.is-inverted:hover, .button.is-github.is-inverted.is-hovered {
+        background-color: #f2f2f2; }
+      .button.is-github.is-inverted[disabled],
+      fieldset[disabled] .button.is-github.is-inverted {
+        background-color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+        color: #333; }
+    .button.is-github.is-loading::after {
+      border-color: transparent transparent #fff #fff !important; }
+    .button.is-github.is-outlined {
+      background-color: transparent;
+      border-color: #333;
+      color: #333; }
+      .button.is-github.is-outlined:hover, .button.is-github.is-outlined.is-hovered, .button.is-github.is-outlined:focus, .button.is-github.is-outlined.is-focused {
+        background-color: #333;
+        border-color: #333;
+        color: #fff; }
+      .button.is-github.is-outlined.is-loading::after {
+        border-color: transparent transparent #333 #333 !important; }
+      .button.is-github.is-outlined.is-loading:hover::after, .button.is-github.is-outlined.is-loading.is-hovered::after, .button.is-github.is-outlined.is-loading:focus::after, .button.is-github.is-outlined.is-loading.is-focused::after {
+        border-color: transparent transparent #fff #fff !important; }
+      .button.is-github.is-outlined[disabled],
+      fieldset[disabled] .button.is-github.is-outlined {
+        background-color: transparent;
+        border-color: #333;
+        box-shadow: none;
+        color: #333; }
+    .button.is-github.is-inverted.is-outlined {
+      background-color: transparent;
+      border-color: #fff;
+      color: #fff; }
+      .button.is-github.is-inverted.is-outlined:hover, .button.is-github.is-inverted.is-outlined.is-hovered, .button.is-github.is-inverted.is-outlined:focus, .button.is-github.is-inverted.is-outlined.is-focused {
+        background-color: #fff;
+        color: #333; }
+      .button.is-github.is-inverted.is-outlined.is-loading:hover::after, .button.is-github.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-github.is-inverted.is-outlined.is-loading:focus::after, .button.is-github.is-inverted.is-outlined.is-loading.is-focused::after {
+        border-color: transparent transparent #333 #333 !important; }
+      .button.is-github.is-inverted.is-outlined[disabled],
+      fieldset[disabled] .button.is-github.is-inverted.is-outlined {
+        background-color: transparent;
+        border-color: #fff;
+        box-shadow: none;
+        color: #fff; }
   .button.is-small {
     border-radius: 2px;
     font-size: 0.75rem; }
@@ -2401,6 +2632,15 @@ a.box:active {
     .notification.is-danger.is-light {
       background-color: #feecf0;
       color: #cc0f35; }
+  .notification.is-facebook {
+    background-color: #4267B2;
+    color: #fff; }
+  .notification.is-instagram {
+    background-color: #30618A;
+    color: #fff; }
+  .notification.is-github {
+    background-color: #333;
+    color: #fff; }
 
 .progress {
   -moz-appearance: none;
@@ -2501,6 +2741,30 @@ a.box:active {
     background-color: #f14668; }
   .progress.is-danger:indeterminate {
     background-image: linear-gradient(to right, #f14668 30%, #ededed 30%); }
+  .progress.is-facebook::-webkit-progress-value {
+    background-color: #4267B2; }
+  .progress.is-facebook::-moz-progress-bar {
+    background-color: #4267B2; }
+  .progress.is-facebook::-ms-fill {
+    background-color: #4267B2; }
+  .progress.is-facebook:indeterminate {
+    background-image: linear-gradient(to right, #4267B2 30%, #ededed 30%); }
+  .progress.is-instagram::-webkit-progress-value {
+    background-color: #30618A; }
+  .progress.is-instagram::-moz-progress-bar {
+    background-color: #30618A; }
+  .progress.is-instagram::-ms-fill {
+    background-color: #30618A; }
+  .progress.is-instagram:indeterminate {
+    background-image: linear-gradient(to right, #30618A 30%, #ededed 30%); }
+  .progress.is-github::-webkit-progress-value {
+    background-color: #333; }
+  .progress.is-github::-moz-progress-bar {
+    background-color: #333; }
+  .progress.is-github::-ms-fill {
+    background-color: #333; }
+  .progress.is-github:indeterminate {
+    background-image: linear-gradient(to right, #333 30%, #ededed 30%); }
   .progress:indeterminate {
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -2586,6 +2850,21 @@ a.box:active {
     .table th.is-danger {
       background-color: #f14668;
       border-color: #f14668;
+      color: #fff; }
+    .table td.is-facebook,
+    .table th.is-facebook {
+      background-color: #4267B2;
+      border-color: #4267B2;
+      color: #fff; }
+    .table td.is-instagram,
+    .table th.is-instagram {
+      background-color: #30618A;
+      border-color: #30618A;
+      color: #fff; }
+    .table td.is-github,
+    .table th.is-github {
+      background-color: #333;
+      border-color: #333;
       color: #fff; }
     .table td.is-narrow,
     .table th.is-narrow {
@@ -2759,6 +3038,15 @@ a.box:active {
     .tag:not(body).is-danger.is-light {
       background-color: #feecf0;
       color: #cc0f35; }
+  .tag:not(body).is-facebook {
+    background-color: #4267B2;
+    color: #fff; }
+  .tag:not(body).is-instagram {
+    background-color: #30618A;
+    color: #fff; }
+  .tag:not(body).is-github {
+    background-color: #333;
+    color: #fff; }
   .tag:not(body).is-normal {
     font-size: 0.75rem; }
   .tag:not(body).is-medium {
@@ -3002,6 +3290,18 @@ a.tag:hover {
     border-color: #f14668; }
     .is-danger.input:focus, .is-danger.textarea:focus, .is-danger.is-focused.input, .is-danger.is-focused.textarea, .is-danger.input:active, .is-danger.textarea:active, .is-danger.is-active.input, .is-danger.is-active.textarea {
       box-shadow: 0 0 0 0.125em rgba(241, 70, 104, 0.25); }
+  .is-facebook.input, .is-facebook.textarea {
+    border-color: #4267B2; }
+    .is-facebook.input:focus, .is-facebook.textarea:focus, .is-facebook.is-focused.input, .is-facebook.is-focused.textarea, .is-facebook.input:active, .is-facebook.textarea:active, .is-facebook.is-active.input, .is-facebook.is-active.textarea {
+      box-shadow: 0 0 0 0.125em rgba(66, 103, 178, 0.25); }
+  .is-instagram.input, .is-instagram.textarea {
+    border-color: #30618A; }
+    .is-instagram.input:focus, .is-instagram.textarea:focus, .is-instagram.is-focused.input, .is-instagram.is-focused.textarea, .is-instagram.input:active, .is-instagram.textarea:active, .is-instagram.is-active.input, .is-instagram.is-active.textarea {
+      box-shadow: 0 0 0 0.125em rgba(48, 97, 138, 0.25); }
+  .is-github.input, .is-github.textarea {
+    border-color: #333; }
+    .is-github.input:focus, .is-github.textarea:focus, .is-github.is-focused.input, .is-github.is-focused.textarea, .is-github.input:active, .is-github.textarea:active, .is-github.is-active.input, .is-github.is-active.textarea {
+      box-shadow: 0 0 0 0.125em rgba(51, 51, 51, 0.25); }
   .is-small.input, .is-small.textarea {
     border-radius: 2px;
     font-size: 0.75rem; }
@@ -3174,6 +3474,30 @@ a.tag:hover {
       border-color: #ef2e55; }
     .select.is-danger select:focus, .select.is-danger select.is-focused, .select.is-danger select:active, .select.is-danger select.is-active {
       box-shadow: 0 0 0 0.125em rgba(241, 70, 104, 0.25); }
+  .select.is-facebook:not(:hover)::after {
+    border-color: #4267B2; }
+  .select.is-facebook select {
+    border-color: #4267B2; }
+    .select.is-facebook select:hover, .select.is-facebook select.is-hovered {
+      border-color: #3b5c9f; }
+    .select.is-facebook select:focus, .select.is-facebook select.is-focused, .select.is-facebook select:active, .select.is-facebook select.is-active {
+      box-shadow: 0 0 0 0.125em rgba(66, 103, 178, 0.25); }
+  .select.is-instagram:not(:hover)::after {
+    border-color: #30618A; }
+  .select.is-instagram select {
+    border-color: #30618A; }
+    .select.is-instagram select:hover, .select.is-instagram select.is-hovered {
+      border-color: #295477; }
+    .select.is-instagram select:focus, .select.is-instagram select.is-focused, .select.is-instagram select:active, .select.is-instagram select.is-active {
+      box-shadow: 0 0 0 0.125em rgba(48, 97, 138, 0.25); }
+  .select.is-github:not(:hover)::after {
+    border-color: #333; }
+  .select.is-github select {
+    border-color: #333; }
+    .select.is-github select:hover, .select.is-github select.is-hovered {
+      border-color: #262626; }
+    .select.is-github select:focus, .select.is-github select.is-focused, .select.is-github select:active, .select.is-github select.is-active {
+      box-shadow: 0 0 0 0.125em rgba(51, 51, 51, 0.25); }
   .select.is-small {
     border-radius: 2px;
     font-size: 0.75rem; }
@@ -3365,6 +3689,54 @@ a.tag:hover {
     background-color: #ef2e55;
     border-color: transparent;
     color: #fff; }
+  .file.is-facebook .file-cta {
+    background-color: #4267B2;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-facebook:hover .file-cta, .file.is-facebook.is-hovered .file-cta {
+    background-color: #3f62a9;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-facebook:focus .file-cta, .file.is-facebook.is-focused .file-cta {
+    border-color: transparent;
+    box-shadow: 0 0 0.5em rgba(66, 103, 178, 0.25);
+    color: #fff; }
+  .file.is-facebook:active .file-cta, .file.is-facebook.is-active .file-cta {
+    background-color: #3b5c9f;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-instagram .file-cta {
+    background-color: #30618A;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-instagram:hover .file-cta, .file.is-instagram.is-hovered .file-cta {
+    background-color: #2d5a81;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-instagram:focus .file-cta, .file.is-instagram.is-focused .file-cta {
+    border-color: transparent;
+    box-shadow: 0 0 0.5em rgba(48, 97, 138, 0.25);
+    color: #fff; }
+  .file.is-instagram:active .file-cta, .file.is-instagram.is-active .file-cta {
+    background-color: #295477;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-github .file-cta {
+    background-color: #333;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-github:hover .file-cta, .file.is-github.is-hovered .file-cta {
+    background-color: #2d2d2d;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-github:focus .file-cta, .file.is-github.is-focused .file-cta {
+    border-color: transparent;
+    box-shadow: 0 0 0.5em rgba(51, 51, 51, 0.25);
+    color: #fff; }
+  .file.is-github:active .file-cta, .file.is-github.is-active .file-cta {
+    background-color: #262626;
+    border-color: transparent;
+    color: #fff; }
   .file.is-small {
     font-size: 0.75rem; }
   .file.is-medium {
@@ -3523,6 +3895,12 @@ a.tag:hover {
     color: #ffdd57; }
   .help.is-danger {
     color: #f14668; }
+  .help.is-facebook {
+    color: #4267B2; }
+  .help.is-instagram {
+    color: #30618A; }
+  .help.is-github {
+    color: #333; }
 
 .field:not(:last-child) {
   margin-bottom: 0.75rem; }
@@ -4151,6 +4529,27 @@ a.list-item {
     .message.is-danger .message-body {
       border-color: #f14668;
       color: #cc0f35; }
+  .message.is-facebook {
+    background-color: #f8f9fc; }
+    .message.is-facebook .message-header {
+      background-color: #4267B2;
+      color: #fff; }
+    .message.is-facebook .message-body {
+      border-color: #4267B2; }
+  .message.is-instagram {
+    background-color: #f7fafc; }
+    .message.is-instagram .message-header {
+      background-color: #30618A;
+      color: #fff; }
+    .message.is-instagram .message-body {
+      border-color: #30618A; }
+  .message.is-github {
+    background-color: #fafafa; }
+    .message.is-github .message-header {
+      background-color: #333;
+      color: #fff; }
+    .message.is-github .message-body {
+      border-color: #333; }
 
 .message-header {
   align-items: center;
@@ -4720,6 +5119,141 @@ a.list-item {
       .navbar.is-danger .navbar-dropdown a.navbar-item.is-active {
         background-color: #f14668;
         color: #fff; } }
+  .navbar.is-facebook {
+    background-color: #4267B2;
+    color: #fff; }
+    .navbar.is-facebook .navbar-brand > .navbar-item,
+    .navbar.is-facebook .navbar-brand .navbar-link {
+      color: #fff; }
+    .navbar.is-facebook .navbar-brand > a.navbar-item:focus, .navbar.is-facebook .navbar-brand > a.navbar-item:hover, .navbar.is-facebook .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-facebook .navbar-brand .navbar-link:focus,
+    .navbar.is-facebook .navbar-brand .navbar-link:hover,
+    .navbar.is-facebook .navbar-brand .navbar-link.is-active {
+      background-color: #3b5c9f;
+      color: #fff; }
+    .navbar.is-facebook .navbar-brand .navbar-link::after {
+      border-color: #fff; }
+    .navbar.is-facebook .navbar-burger {
+      color: #fff; }
+    @media screen and (min-width: 1024px) {
+      .navbar.is-facebook .navbar-start > .navbar-item,
+      .navbar.is-facebook .navbar-start .navbar-link,
+      .navbar.is-facebook .navbar-end > .navbar-item,
+      .navbar.is-facebook .navbar-end .navbar-link {
+        color: #fff; }
+      .navbar.is-facebook .navbar-start > a.navbar-item:focus, .navbar.is-facebook .navbar-start > a.navbar-item:hover, .navbar.is-facebook .navbar-start > a.navbar-item.is-active,
+      .navbar.is-facebook .navbar-start .navbar-link:focus,
+      .navbar.is-facebook .navbar-start .navbar-link:hover,
+      .navbar.is-facebook .navbar-start .navbar-link.is-active,
+      .navbar.is-facebook .navbar-end > a.navbar-item:focus,
+      .navbar.is-facebook .navbar-end > a.navbar-item:hover,
+      .navbar.is-facebook .navbar-end > a.navbar-item.is-active,
+      .navbar.is-facebook .navbar-end .navbar-link:focus,
+      .navbar.is-facebook .navbar-end .navbar-link:hover,
+      .navbar.is-facebook .navbar-end .navbar-link.is-active {
+        background-color: #3b5c9f;
+        color: #fff; }
+      .navbar.is-facebook .navbar-start .navbar-link::after,
+      .navbar.is-facebook .navbar-end .navbar-link::after {
+        border-color: #fff; }
+      .navbar.is-facebook .navbar-item.has-dropdown:focus .navbar-link,
+      .navbar.is-facebook .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-facebook .navbar-item.has-dropdown.is-active .navbar-link {
+        background-color: #3b5c9f;
+        color: #fff; }
+      .navbar.is-facebook .navbar-dropdown a.navbar-item.is-active {
+        background-color: #4267B2;
+        color: #fff; } }
+  .navbar.is-instagram {
+    background-color: #30618A;
+    color: #fff; }
+    .navbar.is-instagram .navbar-brand > .navbar-item,
+    .navbar.is-instagram .navbar-brand .navbar-link {
+      color: #fff; }
+    .navbar.is-instagram .navbar-brand > a.navbar-item:focus, .navbar.is-instagram .navbar-brand > a.navbar-item:hover, .navbar.is-instagram .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-instagram .navbar-brand .navbar-link:focus,
+    .navbar.is-instagram .navbar-brand .navbar-link:hover,
+    .navbar.is-instagram .navbar-brand .navbar-link.is-active {
+      background-color: #295477;
+      color: #fff; }
+    .navbar.is-instagram .navbar-brand .navbar-link::after {
+      border-color: #fff; }
+    .navbar.is-instagram .navbar-burger {
+      color: #fff; }
+    @media screen and (min-width: 1024px) {
+      .navbar.is-instagram .navbar-start > .navbar-item,
+      .navbar.is-instagram .navbar-start .navbar-link,
+      .navbar.is-instagram .navbar-end > .navbar-item,
+      .navbar.is-instagram .navbar-end .navbar-link {
+        color: #fff; }
+      .navbar.is-instagram .navbar-start > a.navbar-item:focus, .navbar.is-instagram .navbar-start > a.navbar-item:hover, .navbar.is-instagram .navbar-start > a.navbar-item.is-active,
+      .navbar.is-instagram .navbar-start .navbar-link:focus,
+      .navbar.is-instagram .navbar-start .navbar-link:hover,
+      .navbar.is-instagram .navbar-start .navbar-link.is-active,
+      .navbar.is-instagram .navbar-end > a.navbar-item:focus,
+      .navbar.is-instagram .navbar-end > a.navbar-item:hover,
+      .navbar.is-instagram .navbar-end > a.navbar-item.is-active,
+      .navbar.is-instagram .navbar-end .navbar-link:focus,
+      .navbar.is-instagram .navbar-end .navbar-link:hover,
+      .navbar.is-instagram .navbar-end .navbar-link.is-active {
+        background-color: #295477;
+        color: #fff; }
+      .navbar.is-instagram .navbar-start .navbar-link::after,
+      .navbar.is-instagram .navbar-end .navbar-link::after {
+        border-color: #fff; }
+      .navbar.is-instagram .navbar-item.has-dropdown:focus .navbar-link,
+      .navbar.is-instagram .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-instagram .navbar-item.has-dropdown.is-active .navbar-link {
+        background-color: #295477;
+        color: #fff; }
+      .navbar.is-instagram .navbar-dropdown a.navbar-item.is-active {
+        background-color: #30618A;
+        color: #fff; } }
+  .navbar.is-github {
+    background-color: #333;
+    color: #fff; }
+    .navbar.is-github .navbar-brand > .navbar-item,
+    .navbar.is-github .navbar-brand .navbar-link {
+      color: #fff; }
+    .navbar.is-github .navbar-brand > a.navbar-item:focus, .navbar.is-github .navbar-brand > a.navbar-item:hover, .navbar.is-github .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-github .navbar-brand .navbar-link:focus,
+    .navbar.is-github .navbar-brand .navbar-link:hover,
+    .navbar.is-github .navbar-brand .navbar-link.is-active {
+      background-color: #262626;
+      color: #fff; }
+    .navbar.is-github .navbar-brand .navbar-link::after {
+      border-color: #fff; }
+    .navbar.is-github .navbar-burger {
+      color: #fff; }
+    @media screen and (min-width: 1024px) {
+      .navbar.is-github .navbar-start > .navbar-item,
+      .navbar.is-github .navbar-start .navbar-link,
+      .navbar.is-github .navbar-end > .navbar-item,
+      .navbar.is-github .navbar-end .navbar-link {
+        color: #fff; }
+      .navbar.is-github .navbar-start > a.navbar-item:focus, .navbar.is-github .navbar-start > a.navbar-item:hover, .navbar.is-github .navbar-start > a.navbar-item.is-active,
+      .navbar.is-github .navbar-start .navbar-link:focus,
+      .navbar.is-github .navbar-start .navbar-link:hover,
+      .navbar.is-github .navbar-start .navbar-link.is-active,
+      .navbar.is-github .navbar-end > a.navbar-item:focus,
+      .navbar.is-github .navbar-end > a.navbar-item:hover,
+      .navbar.is-github .navbar-end > a.navbar-item.is-active,
+      .navbar.is-github .navbar-end .navbar-link:focus,
+      .navbar.is-github .navbar-end .navbar-link:hover,
+      .navbar.is-github .navbar-end .navbar-link.is-active {
+        background-color: #262626;
+        color: #fff; }
+      .navbar.is-github .navbar-start .navbar-link::after,
+      .navbar.is-github .navbar-end .navbar-link::after {
+        border-color: #fff; }
+      .navbar.is-github .navbar-item.has-dropdown:focus .navbar-link,
+      .navbar.is-github .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-github .navbar-item.has-dropdown.is-active .navbar-link {
+        background-color: #262626;
+        color: #fff; }
+      .navbar.is-github .navbar-dropdown a.navbar-item.is-active {
+        background-color: #333;
+        color: #fff; } }
   .navbar > .container {
     align-items: stretch;
     display: flex;
@@ -5249,6 +5783,27 @@ a.navbar-item,
     border-bottom-color: #f14668; }
   .panel.is-danger .panel-block.is-active .panel-icon {
     color: #f14668; }
+  .panel.is-facebook .panel-heading {
+    background-color: #4267B2;
+    color: #fff; }
+  .panel.is-facebook .panel-tabs a.is-active {
+    border-bottom-color: #4267B2; }
+  .panel.is-facebook .panel-block.is-active .panel-icon {
+    color: #4267B2; }
+  .panel.is-instagram .panel-heading {
+    background-color: #30618A;
+    color: #fff; }
+  .panel.is-instagram .panel-tabs a.is-active {
+    border-bottom-color: #30618A; }
+  .panel.is-instagram .panel-block.is-active .panel-icon {
+    color: #30618A; }
+  .panel.is-github .panel-heading {
+    background-color: #333;
+    color: #fff; }
+  .panel.is-github .panel-tabs a.is-active {
+    border-bottom-color: #333; }
+  .panel.is-github .panel-block.is-active .panel-icon {
+    color: #333; }
 
 .panel-tabs:not(:last-child),
 .panel-block:not(:last-child) {
@@ -7064,6 +7619,138 @@ label.panel-block {
       @media screen and (max-width: 768px) {
         .hero.is-danger.is-bold .navbar-menu {
           background-image: linear-gradient(141deg, #fa0a62 0%, #f14668 71%, #f7595f 100%); } }
+  .hero.is-facebook {
+    background-color: #4267B2;
+    color: #fff; }
+    .hero.is-facebook a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+    .hero.is-facebook strong {
+      color: inherit; }
+    .hero.is-facebook .title {
+      color: #fff; }
+    .hero.is-facebook .subtitle {
+      color: rgba(255, 255, 255, 0.9); }
+      .hero.is-facebook .subtitle a:not(.button),
+      .hero.is-facebook .subtitle strong {
+        color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .hero.is-facebook .navbar-menu {
+        background-color: #4267B2; } }
+    .hero.is-facebook .navbar-item,
+    .hero.is-facebook .navbar-link {
+      color: rgba(255, 255, 255, 0.7); }
+    .hero.is-facebook a.navbar-item:hover, .hero.is-facebook a.navbar-item.is-active,
+    .hero.is-facebook .navbar-link:hover,
+    .hero.is-facebook .navbar-link.is-active {
+      background-color: #3b5c9f;
+      color: #fff; }
+    .hero.is-facebook .tabs a {
+      color: #fff;
+      opacity: 0.9; }
+      .hero.is-facebook .tabs a:hover {
+        opacity: 1; }
+    .hero.is-facebook .tabs li.is-active a {
+      opacity: 1; }
+    .hero.is-facebook .tabs.is-boxed a, .hero.is-facebook .tabs.is-toggle a {
+      color: #fff; }
+      .hero.is-facebook .tabs.is-boxed a:hover, .hero.is-facebook .tabs.is-toggle a:hover {
+        background-color: rgba(10, 10, 10, 0.1); }
+    .hero.is-facebook .tabs.is-boxed li.is-active a, .hero.is-facebook .tabs.is-boxed li.is-active a:hover, .hero.is-facebook .tabs.is-toggle li.is-active a, .hero.is-facebook .tabs.is-toggle li.is-active a:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #4267B2; }
+    .hero.is-facebook.is-bold {
+      background-image: linear-gradient(141deg, #2b6096 0%, #4267B2 71%, #4a5ec4 100%); }
+      @media screen and (max-width: 768px) {
+        .hero.is-facebook.is-bold .navbar-menu {
+          background-image: linear-gradient(141deg, #2b6096 0%, #4267B2 71%, #4a5ec4 100%); } }
+  .hero.is-instagram {
+    background-color: #30618A;
+    color: #fff; }
+    .hero.is-instagram a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+    .hero.is-instagram strong {
+      color: inherit; }
+    .hero.is-instagram .title {
+      color: #fff; }
+    .hero.is-instagram .subtitle {
+      color: rgba(255, 255, 255, 0.9); }
+      .hero.is-instagram .subtitle a:not(.button),
+      .hero.is-instagram .subtitle strong {
+        color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .hero.is-instagram .navbar-menu {
+        background-color: #30618A; } }
+    .hero.is-instagram .navbar-item,
+    .hero.is-instagram .navbar-link {
+      color: rgba(255, 255, 255, 0.7); }
+    .hero.is-instagram a.navbar-item:hover, .hero.is-instagram a.navbar-item.is-active,
+    .hero.is-instagram .navbar-link:hover,
+    .hero.is-instagram .navbar-link.is-active {
+      background-color: #295477;
+      color: #fff; }
+    .hero.is-instagram .tabs a {
+      color: #fff;
+      opacity: 0.9; }
+      .hero.is-instagram .tabs a:hover {
+        opacity: 1; }
+    .hero.is-instagram .tabs li.is-active a {
+      opacity: 1; }
+    .hero.is-instagram .tabs.is-boxed a, .hero.is-instagram .tabs.is-toggle a {
+      color: #fff; }
+      .hero.is-instagram .tabs.is-boxed a:hover, .hero.is-instagram .tabs.is-toggle a:hover {
+        background-color: rgba(10, 10, 10, 0.1); }
+    .hero.is-instagram .tabs.is-boxed li.is-active a, .hero.is-instagram .tabs.is-boxed li.is-active a:hover, .hero.is-instagram .tabs.is-toggle li.is-active a, .hero.is-instagram .tabs.is-toggle li.is-active a:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #30618A; }
+    .hero.is-instagram.is-bold {
+      background-image: linear-gradient(141deg, #1c546b 0%, #30618A 71%, #315ca2 100%); }
+      @media screen and (max-width: 768px) {
+        .hero.is-instagram.is-bold .navbar-menu {
+          background-image: linear-gradient(141deg, #1c546b 0%, #30618A 71%, #315ca2 100%); } }
+  .hero.is-github {
+    background-color: #333;
+    color: #fff; }
+    .hero.is-github a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+    .hero.is-github strong {
+      color: inherit; }
+    .hero.is-github .title {
+      color: #fff; }
+    .hero.is-github .subtitle {
+      color: rgba(255, 255, 255, 0.9); }
+      .hero.is-github .subtitle a:not(.button),
+      .hero.is-github .subtitle strong {
+        color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .hero.is-github .navbar-menu {
+        background-color: #333; } }
+    .hero.is-github .navbar-item,
+    .hero.is-github .navbar-link {
+      color: rgba(255, 255, 255, 0.7); }
+    .hero.is-github a.navbar-item:hover, .hero.is-github a.navbar-item.is-active,
+    .hero.is-github .navbar-link:hover,
+    .hero.is-github .navbar-link.is-active {
+      background-color: #262626;
+      color: #fff; }
+    .hero.is-github .tabs a {
+      color: #fff;
+      opacity: 0.9; }
+      .hero.is-github .tabs a:hover {
+        opacity: 1; }
+    .hero.is-github .tabs li.is-active a {
+      opacity: 1; }
+    .hero.is-github .tabs.is-boxed a, .hero.is-github .tabs.is-toggle a {
+      color: #fff; }
+      .hero.is-github .tabs.is-boxed a:hover, .hero.is-github .tabs.is-toggle a:hover {
+        background-color: rgba(10, 10, 10, 0.1); }
+    .hero.is-github .tabs.is-boxed li.is-active a, .hero.is-github .tabs.is-boxed li.is-active a:hover, .hero.is-github .tabs.is-toggle li.is-active a, .hero.is-github .tabs.is-toggle li.is-active a:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #333; }
+    .hero.is-github.is-bold {
+      background-image: linear-gradient(141deg, #1c1718 0%, #333 71%, #433e3d 100%); }
+      @media screen and (max-width: 768px) {
+        .hero.is-github.is-bold .navbar-menu {
+          background-image: linear-gradient(141deg, #1c1718 0%, #333 71%, #433e3d 100%); } }
   .hero.is-small .hero-body {
     padding: 1.5rem; }
   @media screen and (min-width: 769px), print {
