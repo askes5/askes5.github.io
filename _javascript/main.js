@@ -1,4 +1,5 @@
 // Hamburger menu functionality
+//From https://github.com/BulmaTemplates/bulma-templates, used under MIT license.
 document.addEventListener('DOMContentLoaded', () => {
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
     if ($navbarBurgers.length > 0) {
