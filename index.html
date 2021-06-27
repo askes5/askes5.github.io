@@ -1,11 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>My homepage</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Matthew Askes - Homepage</title>
+    <!-- Bulma Version 0.9.0-->
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"/>-->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="icon" type="image/png" href="res/favicon.ico"/>
 </head>
+
 <body>
-    <h1>Coming soon</h1>
-<!--    <p>I'm hosted with GitHub Pages.</p>-->
+<nav class="navbar " role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <h3 class="title is-3">Matthew</h3>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+               data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about"> About </a>
+                <a class="navbar-item" href="#projects"> Projects </a>
+                <a class="navbar-item" href="#research"> Research </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="hero is-large">
+    <div class="hero-body has-text-centered">
+        <h1 class="title is-1">Hi, I'm Matthew Askes</h1>
+        <p class="subtitle">MSc student in mathematics at Victoria University of Wellington.</p>
+    </div>
+</section>
+
+<section class="container">
+    <section class="section" id="about">
+    <h2 class="title is-2" >About Me</h2>
+    <hr>
+    <div class="content">
+        Coming soon...
+    </div>
+    </section>
+    <section class="section" id="projects">
+    <h2 class="title is-2">Projects</h2>
+    <hr>
+    <div id="project_cards" class="row columns is-multiline is-centered">
+        <div class="column is-one-third">
+            <div class="card large">
+                <div class="card-image">
+                    <figure class="image "><img src="res/vuwthesis.png"
+                                                        alt="Image"></figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content"><p class="title is-4 no-padding">VUW Thesis</p>
+                            <p class="subtitle is-6">A latex class for styling a MSc or PhD thesis at VUW</p></div>
+                    </div>
+                    <div class="content">
+                       This is an outgrowth of my MSc thesis. I found that the available template was lacking, so I made my own.
+                    </div>
+                    <a href="https://github.com/askes5/vuwthesis" target="_blank">
+                        <button class="button ">Get on GitHub</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-third">
+            <div class="card large">
+                <div class="card-image">
+                    <figure class="image"><img src="res/GraphColouringAndroid.jpg"
+                                                        alt="Image"></figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content"><p class="title is-4 no-padding">Graph Blitz</p>
+                            <p class="subtitle is-6">A mobile game</p></div>
+                    </div>
+                    <div class="content">
+                        A <strong>prerelease</strong> version of my game. You can have a go by installing the apk.
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1-BJsQ4X9cS2vKYMgBYDT7JVDdg-_9-VB?usp=sharing" target="_blank">
+                        <button class="button ">Download APK</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="section" id="research">
+            <h2 class="title is-2">Research</h2>
+            <hr>
+        <div id="research_cards" class="row columns is-multiline">
+            <div class="column is-12">
+                <div class="card large">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content"><p class="title is-4 no-padding">Graph Algorithms with Hostile
+                                Partners</p>
+                                <p class="subtitle is-6">Honors Thesis</p></div>
+                        </div>
+                        <div class="content">
+                            <strong>Abstract: </strong>
+                            A graph algorithm with a hostile partner is a game played between two players,
+                            Alice and Bob. In each game Alice and Bob take it in turns to construct some
+                            object. Alice wins if the object has a specific property, and Bob wins if it doesn’t.
+                            In this report we will explore a variety of games along with variations that allow
+                            Alice and Bob to play more than once per turn. We will also examine various
+                            strategies for both Alice and Bob. And, for each stategy we will see under what
+                            conditions Alice or Bob will always win. The four main games we will consider
+                            are; the dominating game, the independent dominating game, the colouring game,
+                            and the marking game.
+                        </div>
+
+                        <a href="res/Graph%20Algorithms%20with%20Hostile%20Partners.pdf" download target="_blank">
+                            <button class="button ">Download PDF</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+<footer class="footer mt-6">
+    <div class="container">
+        <div class="content has-text-centered">
+            <div class="level">
+
+                <div class="level-item">
+                    <a href="https://github.com/askes5" target="_blank">GitHub</a>
+                </div>
+                <div class="level-item">
+                    <a href="https://www.facebook.com/matthew.askes/" target="_blank">Facebook</a>
+                </div>
+                <div class="level-item">
+                    <a href="https://www.instagram.com/matthewaskes/">Instagram</a>
+                </div>
+                <div class="level-item">
+                    <a href="https://sms.wgtn.ac.nz/Main/GradMatthewAskes"> VUW profile</a>
+                </div>
+            </div>
+            <br>
+            <p>
+                Copyright 2021 &copy; Matthew Askes
+            </p>
+        </div>
+    </div>
+</footer>
+
 </body>
+
 </html>
