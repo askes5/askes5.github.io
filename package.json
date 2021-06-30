@@ -1,6 +1,5 @@
 {
   "_from": "bulma-start@0.0.4",
-  "_id": "bulma-start@0.0.4",
   "_inBundle": false,
   "_integrity": "sha512-/PbhZBs1tIqnU75eh1SVWKC2DeW+xtQaaKITRksvmlCSTp8BH88JJk+gML3XCGE2LhSWyHTT+AIh6mwtUyjlxQ==",
   "_location": "/bulma-start",
@@ -23,15 +22,10 @@
   "_shasum": "19a0783cd8f55d8f5b3d771c984ab56f72e75cb7",
   "_spec": "bulma-start@0.0.4",
   "_where": "/Users/jthomas/Desktop",
-  "author": {
-    "name": "Jeremy Thomas",
-    "email": "bbxdesign@gmail.com",
-    "url": "http://jgthms.com"
-  },
+  "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
   "bugs": {
     "url": "https://github.com/jgthms/bulma-start/issues"
   },
-  "bundleDependencies": false,
   "deprecated": false,
   "description": "Start package for Bulma",
   "devDependencies": {
@@ -67,5 +61,10 @@
     "js-watch": "npm run js-build -- --watch",
     "start": "npm-run-all --parallel css-watch js-watch"
   },
-  "version": "0.0.4"
+  "version": "0.0.4",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {}
 }
