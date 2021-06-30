@@ -19,6 +19,7 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /*! bulma.io v0.8.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -306,7 +307,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Rubik", sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 code,
 pre {
@@ -876,13 +877,13 @@ a.has-text-github:hover, a.has-text-github:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Rubik", sans-serif !important; }
+  font-family: "Poppins", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Rubik", sans-serif !important; }
+  font-family: "Poppins", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Rubik", sans-serif !important; }
+  font-family: "Poppins", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -1208,6 +1209,7 @@ a.box:active {
   border-width: 1px;
   color: #363636;
   cursor: pointer;
+  font-family: "Rubik", sans-serif;
   justify-content: center;
   padding-bottom: calc(0.5em - 1px);
   padding-left: 1em;
@@ -3112,6 +3114,7 @@ a.tag:hover {
 
 .title {
   color: #363636;
+  font-family: "Rubik", sans-serif;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -7820,3 +7823,9 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.is-small-caps {
+  font-variant-caps: small-caps; }
+
+.is-rubik {
+  font-family: "Rubik", sans-serif; }

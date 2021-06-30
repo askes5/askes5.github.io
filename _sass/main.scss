@@ -27,9 +27,14 @@ $primary-invert: $pink-invert;
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-$family-sans-serif:  'Rubik', sans-serif;
+$family-sans-serif:  'Poppins', sans-serif;
 $family-primary: $family-sans-serif;
+$rubik: 'Rubik', sans-serif;
+$title-family: $rubik;
+$button-family: $rubik;
+
 
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 @import "../node_modules/bulma/sass/utilities/functions";
@@ -52,3 +57,11 @@ $addColors: (
 $colors: map-merge($colors, $addColors);
 
 @import "../node_modules/bulma/bulma";
+
+.is-small-caps {
+  font-variant-caps: small-caps;
+}
+
+.is-rubik {
+  font-family: $rubik;
+}
