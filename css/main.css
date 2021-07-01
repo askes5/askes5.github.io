@@ -18,8 +18,7 @@ $primary-invert: $pink-invert;
 
 // 4. Import the rest of Bulma
 */
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 /*! bulma.io v0.8.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -307,7 +306,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Fira sans", sans-serif; }
 
 code,
 pre {
@@ -877,13 +876,13 @@ a.has-text-github:hover, a.has-text-github:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Poppins", sans-serif !important; }
+  font-family: "Fira sans", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Poppins", sans-serif !important; }
+  font-family: "Fira sans", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Poppins", sans-serif !important; }
+  font-family: "Fira sans", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -1209,7 +1208,6 @@ a.box:active {
   border-width: 1px;
   color: #363636;
   cursor: pointer;
-  font-family: "Rubik", sans-serif;
   justify-content: center;
   padding-bottom: calc(0.5em - 1px);
   padding-left: 1em;
@@ -7825,7 +7823,10 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .is-small-caps {
-  font-variant-caps: small-caps; }
+  font-variant: small-caps; }
 
 .is-rubik {
+  font-family: "Rubik", sans-serif; }
+
+a.navbar-item {
   font-family: "Rubik", sans-serif; }
