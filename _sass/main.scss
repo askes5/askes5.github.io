@@ -58,6 +58,9 @@ $addColors: (
 $colors: map-merge($colors, $addColors);
 
 @import "../node_modules/bulma/bulma";
+//@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+//@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+//@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
 
 .is-small-caps {
   font-variant: small-caps;

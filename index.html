@@ -1,6 +1,8 @@
 <!--
 
-    Uses Bulma and Bulma start to generate css and js files. Licensed under MIT, see \bulma license\LICENSE
+    Uses Bulma and Bulma start to generate css and js files. Licensed under MIT, see \licenses\bulma LICENSE
+
+    Icons from ionicons.com, licenced under MIT, see \licenses/ionicon LICENCE
 
     Design and all the rest: copyright 2021 (c) Matthew Askes
 -->
@@ -12,7 +14,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT88K4Q6LZ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-TT88K4Q6LZ');
@@ -27,7 +33,7 @@
     <!-- Bulma Version 0.9.0-->
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="icon" type="image/png" href="res/favicon.ico"/>
-    <script src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+<!--    <script src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>-->
 </head>
 
 <body>
@@ -35,7 +41,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="index.html">
-                <h3 class="title is-3">Matthew</h3>
+                <h1 class="title is-3">Matthew</h1>
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -69,15 +75,16 @@
         <hr>
         <div class="content">
             <!--            What do I do-->
-            <h3>Bio</h3>
+            <h2>Bio</h2>
             <p>
                 I was born in Tauranga, but currently reside in Wellington, NZ. I moved to Wellington to study a BSc at
                 Victoria University of Wellington (VUW), and never left. I have a passion for mathematics and computer
                 science, but am currently studying towards a Msc in mathematics.
-                My primary areas of research involves algorithmic graph theory, graph games, and computable combinatorics.
+                My primary areas of research involves algorithmic graph theory, graph games, and computable
+                combinatorics.
             </p>
 
-            <h3>Education</h3>
+            <h2>Education</h2>
 
             <div class="card large ">
                 <div class="card-content">
@@ -85,7 +92,8 @@
                         <div class="column is-2">15 MAY 2019</div>
                         <div class="column">
                             <p class="title is-5 no-padding">Bachelor of Science</p>
-                            <p class="subtitle is-6"><span class="is-small-caps">Victoria University of Wellington</span>, Wellington</p>
+                            <p class="subtitle is-6"><span
+                                    class="is-small-caps">Victoria University of Wellington</span>, Wellington</p>
                             <p> Majors: Computer Science and Mathematics</p>
 
                         </div>
@@ -99,26 +107,27 @@
                         <div class="column is-2">15 FEB 2021</div>
                         <div class="column">
                             <p class="title is-5 no-padding">Bachelor of Science with First Class Honors</p>
-                            <p class="subtitle is-6"><span class="is-small-caps">Victoria University of Wellington</span>, Wellington</p>
+                            <p class="subtitle is-6"><span
+                                    class="is-small-caps">Victoria University of Wellington</span>, Wellington</p>
                             <p> Major: Mathematics</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-<!--            <div class="card large ">-->
-<!--                <div class="card-content">-->
-<!--                    <div class="columns">-->
-<!--                        <div class="column is-2">2022 </div>-->
-<!--                        <div class="column">-->
-<!--                            <p class="title is-5 no-padding">Master of Science</p>-->
-<!--                            <p class="subtitle is-6">Victoria University of Wellington, Wellington</p>-->
-<!--                            <p> Major: Mathematics</p>-->
+            <!--            <div class="card large ">-->
+            <!--                <div class="card-content">-->
+            <!--                    <div class="columns">-->
+            <!--                        <div class="column is-2">2022 </div>-->
+            <!--                        <div class="column">-->
+            <!--                            <p class="title is-5 no-padding">Master of Science</p>-->
+            <!--                            <p class="subtitle is-6">Victoria University of Wellington, Wellington</p>-->
+            <!--                            <p> Major: Mathematics</p>-->
 
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </div>-->
         </div>
     </section>
     <section class="section" id="projects">
@@ -192,7 +201,8 @@
                             and the marking game.
                         </div>
 
-                        <a href="res/Graph%20Algorithms%20with%20Hostile%20Partners.pdf" download target="_blank" class="button ">
+                        <a href="res/Graph%20Algorithms%20with%20Hostile%20Partners.pdf" download target="_blank"
+                           class="button ">
                             Download PDF
                         </a>
                     </div>
@@ -205,22 +215,23 @@
 <footer class="footer mt-6">
     <div class="container has-text-centered">
         <a href="https://www.facebook.com/matthew.askes/" rel="nofollow">
-                <span class="icon is-large has-text-dark">
-                    <i class="fab fa-facebook-f fa-2x "></i>
-                </span></a>
+                <span class="icon is-large">
+                    <img class="image is-32x32" src="res/logo-facebook.svg"  alt="Facebook logo"/>
+                </span>
+</a>
         <a href="https://github.com/askes5" rel="nofollow">
-                <span class="icon is-large has-text-dark">
-                    <i class="fab fa-github fa-2x "></i>
+                <span class="icon is-large">
+                     <img class="image is-32x32" src="res/logo-github.svg"  alt="Github logo"/>
                 </span>
         </a>
         <a href="https://www.instagram.com/matthewaskes/" rel="nofollow">
-                <span class="icon is-large has-text-dark">
-                    <i class="fab fa-instagram fa-2x "></i>
+                <span class="icon is-large">
+                    <img class="image is-32x32" src="res/logo-instagram.svg"  alt="Instagram logo"/>
                 </span>
         </a>
         <a href="mailto:matthew.askes@sms.vuw.ac.nz" target="_blank" rel="nofollow">
-                <span class="icon is-large has-text-dark">
-                    <i class="fas fa-envelope fa-2x"></i>
+                <span class="icon is-large">
+                     <img class="image is-32x32" src="res/send.svg"  alt="Send email"/>
                 </span>
         </a>
         <br>
