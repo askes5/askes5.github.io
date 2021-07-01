@@ -7830,3 +7830,7 @@ label.panel-block {
 
 a.navbar-item {
   font-family: "Rubik", sans-serif; }
+
+.icon > svg {
+  fill: currentColor;
+  stroke: currentColor; }

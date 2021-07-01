@@ -73,3 +73,9 @@ $colors: map-merge($colors, $addColors);
 a.navbar-item {
   font-family: $rubik;
 }
+
+//make all svg icons have text colour
+.icon > svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
