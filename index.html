@@ -151,7 +151,7 @@
                             made my own.
                         </div>
                         <a href="https://github.com/askes5/vuwthesis" class="button" rel="nofollow noopener noreferrer"
-                           target="_blank">
+                           target="_blank" onclick="gtag('event', 'goto_github' , {'page': 'vuwthesis'})">
                             Get on GitHub
                         </a>
                     </div>
@@ -176,7 +176,7 @@
                                 apk.</p>
                         </div>
                         <a href="https://drive.google.com/drive/folders/1-BJsQ4X9cS2vKYMgBYDT7JVDdg-_9-VB?usp=sharing"
-                           target="_blank" rel="noopener noreferrer" class="button">
+                           target="_blank" rel="noopener noreferrer" class="button" onclick="gtag('event', 'download_apk' , {'apk': 'GraphBlitz'})">
                             Download APK
                         </a>
                     </div>
@@ -208,7 +208,7 @@
                         </div>
 
                         <a href="res/Graph%20Algorithms%20with%20Hostile%20Partners.pdf" download target="_blank"
-                           class="button ">
+                           class="button " onclick="gtag('event', 'download_pdf' , {'pdf': 'honors_report'})">
                             Download PDF
                         </a>
                     </div>
@@ -220,31 +220,35 @@
 </section>
 <footer class="footer mt-6">
     <div class="container has-text-centered">
-        <a href="https://www.facebook.com/matthew.askes/" rel="nofollow noopener noreferrer">
+        <a href="https://www.facebook.com/matthew.askes/" rel="nofollow noopener noreferrer"
+           onclick="gtag('event', 'goto_facebook' , {'source': 'homepage'})">
                 <span class="icon is-large has-text-dark">
                     <svg class="image is-32x32">
                         <use href="res/logo-facebook.svg#facebook"/>
                     </svg>
                 </span>
         </a>
-        <a href="https://github.com/askes5" rel="nofollow  noopener noreferrer">
+        <a href="https://github.com/askes5" rel="nofollow  noopener noreferrer"
+           onclick="gtag('event', 'goto_github' , {'source': 'homepage', 'page': 'home'})">
                 <span class="icon is-large has-text-dark">
                      <svg class="image is-32x32">
                         <use href="res/logo-github.svg#github"/>
                     </svg>
                 </span>
         </a>
-        <a href="https://www.instagram.com/matthewaskes/" rel="nofollow  noopener noreferrer">
+        <a href="https://www.instagram.com/matthewaskes/" rel="nofollow  noopener noreferrer"
+           onclick="gtag('event', 'goto_instagram' , {'source': 'homepage'})">
                 <span class="icon is-large has-text-dark">
                     <svg class="image is-32x32">
                         <use href="res/logo-instagram.svg#instagram"/>
                     </svg>
                 </span>
         </a>
-        <a href="mailto:matthew.askes@sms.vuw.ac.nz" target="_blank" rel="nofollow  noopener noreferrer">
-                <span class="icon is-large has-text-dark">
+        <a href="mailto:matthew.askes@sms.vuw.ac.nz" target="_blank" rel="nofollow  noopener noreferrer"
+           onclick="gtag('event', 'mailto' , {'source': 'homepage'})">
+                <span class="icon is-large has-text-dark" >
 <!--                     <img class="image is-32x32" src="res/send.svg"  alt="Send email"/>-->
-                    <svg class="image is-32x32 ">
+                    <svg class="image is-32x32 " >
                         <use href="res/mail.svg#mail"/>
                     </svg>
                 </span>
