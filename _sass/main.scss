@@ -26,6 +26,7 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -35,6 +36,8 @@ $rubik: 'Rubik', sans-serif;
 $title-family: $rubik;
 //$button-family: $rubik;
 //
+
+$primary: #0e9844;
 
 
 @import "../node_modules/bulma/sass/utilities/initial-variables";
@@ -48,6 +51,10 @@ $instagram-invert: findColorInvert($instagram);
 $github: #333;
 $github-invert: findColorInvert($github);
 
+$button-hover-color: $primary;
+$button-hover-border-color: $primary;
+$link: $primary;
+
 // Add new color variables to the color map.
 @import "../node_modules/bulma/sass/utilities/derived-variables";
 $addColors: (
@@ -56,6 +63,8 @@ $addColors: (
         "github": ($github, $github-invert)
 );
 $colors: map-merge($colors, $addColors);
+
+
 
 @import "../node_modules/bulma/sass/utilities/_all";
 @import "../node_modules/bulma/sass/base/_all";
@@ -69,7 +78,7 @@ $colors: map-merge($colors, $addColors);
 @import "../node_modules/bulma/sass/components/menu";
 @import "../node_modules/bulma/sass/components/navbar";
 @import "../node_modules/bulma/sass/grid/columns";
-
+@import "../node_modules/bulma/sass/helpers/all";
 @import "../node_modules/bulma/sass/layout/all";
 
 .is-small-caps {

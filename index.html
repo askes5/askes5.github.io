@@ -60,6 +60,7 @@
                 <a class="navbar-item" href="#about"> About </a>
                 <a class="navbar-item" href="#projects"> Projects </a>
                 <a class="navbar-item" href="#research"> Research </a>
+                <a class="navbar-item" href="#other"> Other Work </a>
             </div>
         </div>
     </div>
@@ -67,8 +68,10 @@
 
 <section class="hero is-large">
     <div class="hero-body has-text-centered">
-        <h1 class="title is-1">Hi, I'm Matthew Askes</h1>
-        <p class="subtitle">MSc student in mathematics at Victoria University of Wellington.</p>
+<!--        <div class="container has-text-centered">-->
+            <h1 class="title is-1">Hi, I'm Matthew Askes</h1>
+<!--            <p class="subtitle">MSc in Mathematics.</p>-->
+<!--        </div>-->
     </div>
 </section>
 
@@ -78,25 +81,52 @@
         <hr>
         <div class="content">
             <!--            What do I do-->
-            <h2>Bio</h2>
+            <h2 class="title is-4">Bio</h2>
             <p>
                 I was born in Tauranga, but currently reside in Wellington, NZ. I moved to Wellington to study a BSc at
                 Victoria University of Wellington (VUW), and never left. I have a passion for mathematics and computer
-                science, but am currently studying towards a Msc in mathematics.
-                My primary areas of research involves algorithmic graph theory, graph games, and computable
-                combinatorics.
+                science, and have recently finished my MSc in mathematics.
+                My primary areas of research involves algorithmic graph theory, graph games, and online algorithms.
             </p>
 
-            <h2>Education</h2>
+            <h2 class="title is-4">Education</h2>
 
             <div class="card large ">
                 <div class="card-content">
                     <div class="columns">
-                        <div class="column is-2">15 MAY 2019</div>
+                        <div class="column is-2">APR 2022 </div>
+                        <div class="column">
+                            <p class="title is-5 no-padding">Master of Science with Distinction</p>
+                            <p class="subtitle is-6"><span
+                                    class="is-small-caps">Victoria University of Wellington</span>, Wellington, NZ</p>
+                            <p> Subject: Mathematics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card large ">
+                <div class="card-content">
+                    <div class="columns">
+                        <div class="column is-2">FEB 2021</div>
+                        <div class="column">
+                            <p class="title is-5 no-padding">Bachelor of Science with First Class Honors</p>
+                            <p class="subtitle is-6"><span
+                                    class="is-small-caps">Victoria University of Wellington</span>, Wellington, NZ</p>
+                            <p> Major: Mathematics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card large ">
+                <div class="card-content">
+                    <div class="columns">
+                        <div class="column is-2">MAY 2019</div>
                         <div class="column">
                             <p class="title is-5 no-padding">Bachelor of Science</p>
                             <p class="subtitle is-6"><span
-                                    class="is-small-caps">Victoria University of Wellington</span>, Wellington</p>
+                                    class="is-small-caps">Victoria University of Wellington</span>, Wellington, NZ</p>
                             <p> Majors: Computer Science and Mathematics</p>
 
                         </div>
@@ -104,19 +134,7 @@
                 </div>
             </div>
 
-            <div class="card large ">
-                <div class="card-content">
-                    <div class="columns">
-                        <div class="column is-2">15 FEB 2021</div>
-                        <div class="column">
-                            <p class="title is-5 no-padding">Bachelor of Science with First Class Honors</p>
-                            <p class="subtitle is-6"><span
-                                    class="is-small-caps">Victoria University of Wellington</span>, Wellington</p>
-                            <p> Major: Mathematics</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             <!--            <div class="card large ">-->
             <!--                <div class="card-content">-->
@@ -214,6 +232,63 @@
                     </div>
                 </div>
             </div>
+
+
+
+            <div class="column is-12">
+                <div class="card large " id="msc_thesis">
+                    <div class="card-content">
+                        <p class="title is-4 no-padding">Adversarial and Online Algorithms</p>
+                        <p class="subtitle is-6">Masters Thesis</p>
+                        <p class="subtitle is-6">DOI: <a href="https://doi.org/10.26686/wgtn.20279553"  target=”_blank” class="is-text">10.26686/wgtn.20279553</a></p>
+                        <div class="content">
+                            <p><strong>Abstract: </strong>
+                            In this thesis we explore a variety of online and adversarial algorithms. We primarily explore the following online and adversarial algorithms; the perfect code game, adversarial online colouring, the chain decomposition game, and strongly online graphs.</p>
+
+                            <p>The perfect code game is a new adversarial game played on graphs in which players take turns constructing perfect codes. We provide definitions for perfect codes and the perfect code game, along with some motivation from coding theory. We will prove upper bounds for both cycle and path graphs. We also prove an upper bound for graphs of bounded pathwidth. Finally, we explore the perfect code game in graphs of bounded degree.</p>
+
+                            <p>We will create a new game called the adversarial online colouring game, this game takes elements from both online and adversarial algorithms. We will begin with some discussion and a definition of adversarial online colouring. We will then prove several results related to graph degree. We conclude with a proof that the adversarial online colouring game on trees is determined only by the number of colours and the number of vertices (assuming that both players have a chance at winning).</p>
+
+                            <p>The chain decomposition game is another adversarial game, but this time played on partial orders. We introduce the chain decomposition game and demonstrate two results relating to upper and lower bounds for the game. We also prove a result on the online adversarial version of the game.</p>
+
+                            <p>We introduce strongly online graphs and graph colouring as a new algorithmic parameterization to online graph colouring. A strongly online graph is an online graph where at each stage 𝑠 we can see a ball of increasing radius about each vertex. We will prove several bounds (upper and lower) on the online chromatic number of strongly online graphs. For example, we show that every strongly online graph can be coloured in twice its chromatic number. We prove that every strongly online graph with even pathwidth 𝑘 can be online coloured with 2𝑘 + 1 colours. Then, after introducing a natural notion of strongly online pathwidth, we prove that there is a strongly online graph with no finite strongly online path decomposition.</p>
+                        </div>
+
+                        <a href="res/msc_thesis.pdf" download target=”_blank”
+                           class="button" onclick="gtag('event', 'download_pdf' , {'pdf': 'msc_thesis'})">
+                            Download pdf
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="other">
+        <h2 class="title is-2">Other Work</h2>
+
+        <hr>
+
+        <div class="column is-12">
+            <div id="other_cards" class="row columns is-multiline">
+            <div class="card large " id="braids_report">
+                <div class="card-content">
+                    <p class="title is-4 no-padding">Braids and the Braid Group</p>
+                    <p class="subtitle is-6">An introduction</p>
+                    <div class="content">
+                        <strong>Abstract: </strong>
+                        The study of braids and the braid group is a vast topic. This report introduces
+                        the basic ideas of braids and the braid group. This report is aimed at anyone with
+                        little to no knowledge of braids but who has some understanding of knot theory.
+                    </div>
+
+                    <a href="res/Braid_group_report.pdf" download target="_blank"
+                       class="button " onclick="gtag('event', 'download_pdf' , {'pdf': 'braids_report'})">
+                        Download PDF
+                    </a>
+                </div>
+            </div>
+            </div>
         </div>
     </section>
 
@@ -244,7 +319,7 @@
                     </svg>
                 </span>
         </a>
-        <a href="mailto:matthew.askes@sms.vuw.ac.nz" target="_blank" rel="nofollow  noopener noreferrer"
+        <a href="mailto:askesmatt@myvuw.ac.nz" target="_blank" rel="nofollow  noopener noreferrer"
            onclick="gtag('event', 'mailto' , {'source': 'social_links'})">
                 <span class="icon is-large has-text-dark" >
 <!--                     <img class="image is-32x32" src="res/send.svg"  alt="Send email"/>-->
