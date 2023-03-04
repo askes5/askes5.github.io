@@ -1,0 +1,132 @@
+<!--
+
+    Uses Bulma and Bulma start to generate css and js files. Licensed under MIT, see \licenses\bulma LICENSE
+
+    Icons from ionicons.com, licenced under MIT, see \licenses/ionicon LICENCE
+
+    Design and all the rest: copyright 2021 (c) Matthew Askes
+-->
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT88K4Q6LZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-TT88K4Q6LZ');
+    </script>
+
+    <!--    canonical page-->
+    <link rel="canonical" href="https://matthewaskes.nz/" />
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description"
+          content="The personal homepage and portfolio for Matthew Askes. This site contains information about Matthew Askes along with some projects. Projects include the vuw thesis latex package and the GraphBlitz game"/>
+    <title>Homepage | Matthew Askes</title>
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="icon" type="image/png" href="res/favicon.ico"/>
+    <!--    <script src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>-->
+</head>
+
+<body>
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <h1 class="title is-3">Matthew</h1>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+               data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <!--        <div id="navbarBasicExample" class="navbar-menu">-->
+        <!--            <div class="navbar-end">-->
+        <!--                <a class="navbar-item" href="#about"> About </a>-->
+        <!--                <a class="navbar-item" href="#projects"> Projects </a>-->
+        <!--                <a class="navbar-item" href="#research"> Research </a>-->
+        <!--                <a class="navbar-item" href="#other"> Other Work </a>-->
+        <!--            </div>-->
+        <!--        </div>-->
+    </div>
+</nav>
+
+<section class="hero is-small">
+    <div class="hero-body has-text-centered">
+        <!--        <div class="container has-text-centered">-->
+        <h1 class="title is-1">How the Graph Blitz Website Works</h1>
+        <!--            <p class="subtitle">MSc in Mathematics.</p>-->
+        <!--        </div>-->
+    </div>
+</section>
+
+
+<section class="container">
+    <div class="content">
+        TODO
+    </div>
+</section>
+
+<footer class="footer mt-6">
+    <div class="container has-text-centered">
+        <a href="https://www.facebook.com/matthew.askes/" rel="nofollow noopener noreferrer"
+           onclick="gtag('event', 'goto_facebook' , {'source': 'social_links'})">
+                <span class="icon is-large has-text-dark">
+                    <svg class="image is-32x32">
+                        <use href="res/logo-facebook.svg#facebook"/>
+                    </svg>
+                </span>
+        </a>
+        <a href="https://github.com/askes5" rel="nofollow  noopener noreferrer"
+           onclick="gtag('event', 'goto_github' , {'source': 'social_links', 'page': 'home'})">
+                <span class="icon is-large has-text-dark">
+                     <svg class="image is-32x32">
+                        <use href="res/logo-github.svg#github"/>
+                    </svg>
+                </span>
+        </a>
+        <a href="https://www.instagram.com/matthewaskes/" rel="nofollow  noopener noreferrer"
+           onclick="gtag('event', 'goto_instagram' , {'source': 'social_links'})">
+                <span class="icon is-large has-text-dark">
+                    <svg class="image is-32x32">
+                        <use href="res/logo-instagram.svg#instagram"/>
+                    </svg>
+                </span>
+        </a>
+        <!--        <a href="mailto:askesmatt@myvuw.ac.nz" target="_blank" rel="nofollow  noopener noreferrer"-->
+        <!--           onclick="gtag('event', 'mailto' , {'source': 'social_links'})">-->
+        <!--                <span class="icon is-large has-text-dark" >-->
+        <!--&lt;!&ndash;                     <img class="image is-32x32" src="res/send.svg"  alt="Send email"/>&ndash;&gt;-->
+        <!--                    <svg class="image is-32x32 " >-->
+        <!--                        <use href="res/mail.svg#mail"/>-->
+        <!--                    </svg>-->
+        <!--                </span>-->
+        <!--        </a>-->
+        <br>
+        <br>
+        <p class="has-text-grey-light">
+            Copyright 2021 &copy; Matthew Askes
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript" src="lib/main.js"></script>
+</body>
+
+
+</html>
