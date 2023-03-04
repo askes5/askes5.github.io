@@ -25,7 +25,7 @@
     </script>
 
     <!--    canonical page-->
-    <link rel="canonical" href="https://matthewaskes.nz/" />
+    <link rel="canonical" href="https://matthewaskes.nz/"/>
 
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -76,9 +76,50 @@
 </section>
 
 
-<section class="container">
-    <div class="content">
-        TODO
+<section class="section">
+    <div class="container">
+
+        <div class="content">
+            <h1>About</h1>
+            <p>The <a href="https://graphblitz.com">Graph Blitz Website</a> was just as much about learning the basics
+                of and how to use cloud services (Google Cloud Services in particular) as it was about creating a
+                homepage for my Android app.
+                There were a few challenges, but in the end I learnt a lot.
+                On this page I'll give a brief overview of how the site works and the tools used to build it.
+                <!--            attempt to explain what I did, why I did it, and my experiences with build.-->
+            <h1>Front End</h1>
+            <p>The site is written with HTML, CSS (using SASS and Bulma).
+                The 'Total Games Played' and 'Win Ratio' statistics are updated by using Javascript to fetch data from a
+                Firestore database.
+                The site is static and stored in a Google Cloud Storage bucket.
+            <p>
+            <p>The site uses a load balancer to enable HTTPS.
+                Cloud CDN is used to cache the site to reduce the number of hits to the load balancer.
+                Finally, a custom DNS domain name (<a href="https://graphblitz.com">graphblitz.com</a>) points to the load balancer endpoint.</p>
+            <h1>Back End</h1>
+            <p>When a user plays (and finishes) a game in the Graph Blitz app the app sends an HTTP POST request to a custom API
+                built-in Cloud Functions.
+                The Cloud Function API updates the Firestore (database) document, which tracks the total games won and lost.
+                An API Gateway manages access to said Cloud Function API by only allowing access to authorised users.
+                The Graph Blitz app uses an API key, which is only valid from this Android app, for its authorisation.
+            </p>
+            <h1>CI/CD</h1>
+            <p>Pushing to the GitHub repo that contains the site activates a Cloud Build trigger to update the bucket
+                that contains the
+                site.</p>
+            <p>The Cloud Function API is stored in a Cloud Source repository, which is connected to GitHub repository.
+                This means that when I push to the GitHub repository the Cloud Function is automatically updated. </p>
+
+        </div>
+
+        <div class="columns is-centered">
+            <div class="column is-10">
+                <figure class="image">
+                    <img src="res/Diagram.svg"
+                         alt="A diagram explaining how the Graph Blitz site is made.">
+                </figure>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -120,7 +161,7 @@
         <br>
         <br>
         <p class="has-text-grey-light">
-            Copyright 2021 &copy; Matthew Askes
+            Copyright 2023 &#169; Matthew Askes
         </p>
     </div>
 </footer>
