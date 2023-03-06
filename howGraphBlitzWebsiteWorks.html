@@ -92,7 +92,13 @@
                 The 'Total Games Played' and 'Win Ratio' statistics are updated by using Javascript to fetch data from a
                 Firestore database.
                 The site is static and stored in a Google Cloud Storage bucket.
+            </p>
             <p>
+                The site will cache the gameplay data.
+                It will only pull new data from Firestore if there has been an update to the database since the last time the site retrieved (and then cached) data.
+                By caching data we reduce the number of hits to Firestore.
+                For our uses the number of hits saved is small, but still worthwhile to reduce costs.
+            </p>
             <p>The site uses a load balancer to enable HTTPS.
                 Cloud CDN is used to cache the site to reduce the number of hits to the load balancer.
                 Finally, a custom DNS domain name (<a href="https://graphblitz.com">graphblitz.com</a>) points to the load balancer endpoint.</p>
@@ -103,6 +109,8 @@
                 An API Gateway manages access to said Cloud Function API by only allowing access to authorised users.
                 The Graph Blitz app uses an API key, which is only valid from this Android app, for its authorisation.
             </p>
+            <p>There is also a small cloud function that tracks the last time the Firestore database has been updated.
+                It does this with a Firestore update trigger and then writing the update time to a field in the database.</p>
             <h1>CI/CD</h1>
             <p>Pushing to the GitHub repo that contains the site activates a Cloud Build trigger to update the bucket
                 that contains the
