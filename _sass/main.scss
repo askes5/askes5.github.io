@@ -64,7 +64,7 @@ $addColors: (
 );
 $colors: map-merge($colors, $addColors);
 
-
+$card-footer-border-top: 0px;
 
 @import "../node_modules/bulma/sass/utilities/_all";
 @import "../node_modules/bulma/sass/base/_all";
@@ -97,4 +97,26 @@ a.navbar-item {
 .icon > svg {
   fill: currentColor;
   stroke: currentColor;
+}
+
+.bottom {
+  margin-top: auto;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.equal-height .card-content {
+  flex: auto;
+}
+
+.card-buttons {
+  margin-top: fill;
+  padding: $card-content-padding;
+}
+
+.card-buttons .button {
 }
