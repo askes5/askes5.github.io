@@ -34,8 +34,8 @@
           content="The personal homepage and portfolio for Matthew Askes. This site contains information about Matthew Askes along with some projects. Projects include the vuw thesis latex package and the GraphBlitz game"/>
     <title>Homepage | Matthew Askes</title>
     <!-- Bulma Version 0.9.0-->
-    <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    <link rel="icon" type="image/png" href="res/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+    <link rel="icon" type="image/png" href="./res/favicon.ico"/>
     <!--    <script src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>-->
 </head>
 
@@ -43,7 +43,7 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item" href="index.html">
+            <a class="navbar-item" href="./index.html">
                 <h1 class="title is-3">Matthew</h1>
             </a>
 
@@ -83,7 +83,7 @@
             <h1>About</h1>
             <p>The <a href="https://graphblitz.com">Graph Blitz Website</a> was just as much about learning the basics
                 of and how to use cloud services (Google Cloud Platform in particular) as it was about creating a
-                homepage for my Android app.
+                homepage for my Android application.
                 There were a few challenges, but in the end I learnt a lot.
                 On this page I'll give a brief overview of how the site works and the tools used to build it.
                 <!--            attempt to explain what I did, why I did it, and my experiences with build.-->
@@ -99,9 +99,7 @@
                 By caching data we reduce the number of hits to Firestore.
                 For our uses the number of hits saved is small, but still worthwhile to reduce costs.
             </p>
-            <p>The site uses a load balancer to enable HTTPS.
-                Cloud CDN is used to cache the site to reduce the number of hits to the load balancer.
-                Finally, a custom DNS domain name (<a href="https://graphblitz.com">graphblitz.com</a>) points to the load balancer endpoint.</p>
+            <p>The site itself is hosted using Firebase Hosting, with a custom domain name pointing at it. This provides a simple and cost-effective way of hosting the site.</p>
             <h1>Back End</h1>
             <p>When a user plays (and finishes) a game in the Graph Blitz app the app sends an HTTP POST request to a custom API
                 built-in Cloud Functions.
@@ -112,9 +110,7 @@
             <p>There is also a small cloud function that tracks the last time the Firestore database has been updated.
                 It does this with a Firestore update trigger and then writing the update time to a field in the database.</p>
             <h1>CI/CD</h1>
-            <p>Pushing to the GitHub repo that contains the site activates a Cloud Build trigger to update the bucket
-                that contains the
-                site.</p>
+            <p>Pushing to the GitHub repo that contains the site activates a GitHub action, which automatically builds the site (CSS via SASS and JS via Webpack/Bulma) and uploads it to Firebase Hosting.</p>
             <p>The Cloud Function API is stored in a Cloud Source repository, which is connected to GitHub repository.
                 This means that when I push to the GitHub repository the Cloud Function is automatically updated. </p>
 
@@ -123,7 +119,7 @@
         <div class="columns is-centered">
             <div class="column is-10">
                 <figure class="image">
-                    <img src="res/Diagram.svg"
+                    <img src="./res/Diagram.svg"
                          alt="A diagram explaining how the Graph Blitz site is made.">
                 </figure>
             </div>
@@ -174,7 +170,7 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="lib/main.js"></script>
+<script type="text/javascript" src="./lib/main.js"></script>
 </body>
 
 
